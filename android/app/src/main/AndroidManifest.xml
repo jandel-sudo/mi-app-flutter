@@ -8,6 +8,9 @@
 <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
     <application
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
         android:label="monitor_jandel"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
